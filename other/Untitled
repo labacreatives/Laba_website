@@ -1,0 +1,31 @@
+<!--progress bar-->
+
+<div>
+    <div class="progress">
+      <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="max-width: 100%">
+          <span class="title">HTML-60%</span>
+      </div>
+    </div>
+</div>
+<div>
+    <div class="progress">
+      <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="max-width: 60%">
+          <span class="title">CSS-60%</span>
+      </div>
+    </div>
+</div>
+<div>
+    <div class="progress">
+        <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="max-width: 60%">
+            <span class="title">JAVASCRIPT-60%</span>
+        </div>
+    </div>
+</div>
+<div>
+    <div class="progress">
+        <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="max-width: 60%">
+            <span class="title">ANGULAR-60%</span>
+        </div>
+    </div>
+</div>
+<!--progress bar-->

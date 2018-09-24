@@ -98,7 +98,7 @@ ul, ol {
 	color: #ce2c47;
 }
 .on {
-	background-color: #db5666  !important;
+	background-color: #AD455B  !important;
 	padding: 0 !important;
 
 
@@ -118,9 +118,9 @@ ul, ol {
 	background-color: #FFF;
 }
 .btn-default {
-	color: #25BAD0;
+	color: #e5e5e5;
 	background-color: transparent;
-	border: 2px solid #25BAD0;
+	border: 0.25px solid #e5e5e5;
 	padding: 12px 20px;
 	margin: 0;
 	font-size: 15px;
@@ -128,9 +128,9 @@ ul, ol {
 	text-transform: uppercase;
 }
 .btn-default:hover, .btn-default:focus, .btn-default.focus, .btn-default:active, .btn-default.active {
-	color: #053740;
-	background-color: #25BAD0;
-	border-color: #25BAD0;
+	color: #AD455B;
+	background-color: #e5e5e5;
+	border-color: #e5e5e5;
 }
 .btn:active, .btn.active {
 	background-image: none;
@@ -156,13 +156,14 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
 	-o-background-size: cover;
 }
 .intro .overlay {
-
+	margin-bottom: 40px;
+  margin-top: 20px;
 	padding: 100px 0;
 
 
 }
 .section-title {
-	padding: 25px 0 60px 0;
+	padding: 25px 0 25px 0;
 }
 .intro H1 {
 	font-size: 60px;
@@ -187,7 +188,7 @@ header .intro-text {
 }
 /* Services Section */
 #services {
-	padding: 120px 0;
+	padding: 80px 0;
 	background:#fff;
 }
 #services h2{
@@ -215,15 +216,19 @@ header .intro-text {
 }
 /* About Section */
 #about {
-	padding: 100px 0;
-	background: #fff;
+  padding: 25px 0 25px 0;
+	background: #E5E5E5;
 
 }
 #about h2 {
-color: #2B2825;
+color: #ffff;
+}
+#about h3 {
+	color:#000;
+	text-transform: uppercase;
 }
 #about h4 {
-	color:#2B2825;
+	color:#fff;
 }
 #about .about-text {
 	margin-left: 10px;
@@ -231,15 +236,90 @@ color: #2B2825;
 #about p {
 	margin-top: 20px;
 	margin-bottom: 30px;
-	color:#2B2825;
+	color:#000;
+}
+/*Marketing */
+#about1 {
+
+	background: #fff;
+	padding: 25px 0 25px 0;
+
+}
+#about1 h2 {
+color: #ffff;
+}
+#about1 h3 {
+	color:#000;
+	text-transform: uppercase;
+}
+#about1 h4 {
+	color:#fff;
+}
+#about1 .about-text {
+	margin-left: 10px;
+}
+#about1 p {
+	margin-top: 20px;
+	margin-bottom: 30px;
+	color:#000;
+}
+/* web development */
+#about2 {
+
+	background: #E5E5E5;
+	padding: 25px 0 25px 0;
+
+}
+#about2 h2 {
+color: #ffff;
+}
+#about2 h3 {
+	color:#000;
+	text-transform: uppercase;
+}
+#about2 h4 {
+	color:#fff;
+}
+#about2 .about-text {
+	margin-left: 10px;
+}
+#about2 p {
+	margin-top: 20px;
+	margin-bottom: 30px;
+	color:#000;
+}
+/* App development */
+#about3 {
+
+	background: #fff;
+	padding: 25px 0 25px 0;
+
+}
+#about3 h2 {
+color: #ffff;
+}
+#about3 h3 {
+	color:#000;
+	text-transform: uppercase;
+}
+#about3 h4 {
+	color:#fff;
+}
+#about3 .about-text {
+	margin-left: 10px;
+}
+#about3 p {
+	margin-top: 20px;
+	margin-bottom: 30px;
+	color:#000;
 }
 /* Portfolio Section */
 #portfolio {
 	padding: 100px 0;
-	background:#2B2825;
+	background:#fff;
 }
 #portfolio h2{
-	color: #FEF2F6;
+	color: #2B2825;
 }
 .categories {
 	padding-bottom: 30px;
@@ -255,17 +335,17 @@ ol.type li {
 }
 ol.type li a {
 	background: transparent;
-	border: 2px solid #25BAD0;
-	color: #25BAD0;
+	border: 0.2px solid #E5E5E5;
+	color: #2B2825;
 	padding: 10px 20px;
 }
 ol.type li a.active {
-	background: #25BAD0;
-	color: #053740;
+	background: #db5666;
+	color: #fff;
 }
 ol.type li a:hover {
-	background: #25BAD0;
-	color: #053740;
+	background: #db5666;
+	color: #fff;
 }
 .isotope-item {
 	z-index: 2
@@ -367,7 +447,7 @@ ol.type li a:hover {
 /* Team Section */
 #team {
 	padding: 100px 0;
-	background:#fff;
+	background:#E5E5E5;
 }
 #team h2 {
 	color:#2B2825;
@@ -395,19 +475,21 @@ img.img-circle.team-img {
 /* Contact Section */
 #contact {
 	background: url(../img/contact-bg.jpg) no-repeat center top;
-	background-color: #FEF2F6;
+	background-color: #fff;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	background-size: cover;
 	-o-background-size: cover;
 }
+#contact h2{
+		color: #e5e5e5;
+}
 #contact .overlay {
 	padding: 100px 0 40px 0;
-	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#053740+0,053740+100&1+0,0.75+100 */
-	background: -moz-linear-gradient(top, rgba(5,55,64,1) 0%, rgba(5,55,64,0.75) 100%); /* FF3.6-15 */
-	background: -webkit-linear-gradient(top, rgba(5,55,64,1) 0%, rgba(5,55,64,0.75) 100%); /* Chrome10-25,Safari5.1-6 */
-	background: linear-gradient(to bottom, rgba(5,55,64,1) 0%, rgba(5,55,64,0.75) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#053740', endColorstr='#bf053740', GradientType=0 ); /* IE6-9 */
+	background: -moz-linear-gradient(top, rgba(142,31,61,1) 0%, rgba(150,33,66,0.7) 100%);
+	background: -webkit-linear-gradient(top, rgba(142,31,61,1) 0%,rgba(150,33,66,0.7) 100%);
+	background: linear-gradient(to bottom, rgba(142,31,61,1) 0%,rgba(150,33,66,0.7) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#8e1f3d', endColorstr='#b3962142',GradientType=0 );
 }
 #contact h3 {
 	padding-top: 20px;
@@ -423,7 +505,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#053740', end
 	margin-bottom: 10px;
 }
 #contact .text-danger {
-	color: #ff6600;
+	color: #e5e5e5;
 	text-align: left;
 }
 label {
@@ -469,6 +551,7 @@ color: #ccc;
 }
 #contact .btn {
 	margin-top: 20px;
+
 }
 #contact .social {
 	margin-top: 80px;
@@ -484,7 +567,7 @@ color: #ccc;
 	transition: all 0.5s;
 }
 #contact .social i.fa:hover {
-	color: #25BAD0;
+	color: #03252b;
 }
 /* Footer Section*/
 #footer {
@@ -498,7 +581,7 @@ color: #ccc;
 	color: #aaa;
 }
 #footer a:hover {
-	color: #25BAD0;
+	color: #AD455B;
 }
 
 /* Media Queries */
