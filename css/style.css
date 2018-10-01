@@ -217,19 +217,18 @@ header .intro-text {
 }
 /* About Section */
 #about {
-  padding: 25px 0 25px 0;
-	background: #E5E5E5;
-
+  	padding: 125px 100px 25px 0;
+	background-color:#fff;
 }
 #about h2 {
-color: #ffff;
+color: #000;
 }
 #about h3 {
 	color:#000;
 	text-transform: uppercase;
 }
 #about h4 {
-	color:#fff;
+	color:#000;
 }
 #about .about-text {
 	margin-left: 10px;
@@ -247,14 +246,14 @@ color: #ffff;
 
 }
 #about1 h2 {
-color: #ffff;
+color: #000;
 }
 #about1 h3 {
 	color:#000;
 	text-transform: uppercase;
 }
 #about1 h4 {
-	color:#fff;
+	color:#000;
 }
 #about1 .about-text {
 	margin-left: 10px;
@@ -267,19 +266,19 @@ color: #ffff;
 /* web development */
 #about2 {
 
-	background: #E5E5E5;
+	background: #fff;
 	padding: 25px 0 25px 0;
 
 }
 #about2 h2 {
-color: #ffff;
+color: #000;
 }
 #about2 h3 {
 	color:#000;
 	text-transform: uppercase;
 }
 #about2 h4 {
-	color:#fff;
+	color:#000;
 }
 #about2 .about-text {
 	margin-left: 10px;
@@ -297,7 +296,7 @@ color: #ffff;
 
 }
 #about3 h2 {
-color: #ffff;
+color: #000;
 }
 #about3 h3 {
 	color:#000;
@@ -320,7 +319,7 @@ color: #ffff;
 	background:#fff;
 }
 #portfolio h2{
-	color: #2B2825;
+	color: #000;
 }
 .categories {
 	padding-bottom: 30px;
