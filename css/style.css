@@ -111,7 +111,7 @@ ul, ol {
 	letter-spacing: 1px;
 }
 #menu.navbar-default .navbar-nav > li > a:hover {
-	color: #ce2c47;
+	color: #fff;
 }
 .on {
 	background-color: #AD455B  !important;
@@ -179,7 +179,7 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
 
 }
 .section-title {
-	padding: 25px 0 25px 0;
+	padding: 10px 0 60px 0;
 }
 .intro H1 {
 	font-size: 60px;
@@ -204,7 +204,7 @@ header .intro-text {
 }
 /* Services Section */
 #services {
-	padding: 80px 0;
+	padding:120px 0;
 	background:#fff;
 }
 #services h2{
@@ -217,21 +217,22 @@ header .intro-text {
 }
 #services p{
 	color: #2B2825;
+
 }
 #services i.fa {
 	font-size: 32px;
 	margin-bottom: 20px;
 	transition: all 0.5s;
-	color: #053740;
+	color: #db5666;
 	width: 100px;
 	height: 100px;
 	padding: 33px 0;
-	border: 1px solid #2B2825;
+	border: 1px solid #ce2c47;
 	background: #fff;
 	border-radius: 50%;
 }
-/* About Section */
-#about {
+/* Web development Section */
+#about  {
 
 	background-color:#fff;
 }
@@ -329,6 +330,29 @@ color: #000;
 	margin-bottom: 30px;
 	color:#000;
 }
+/*about us section */
+#about4  {
+
+	background-color:#fff;
+}
+#about4 h2 {
+color: #000;
+}
+#about4 h3 {
+	color:#000;
+	text-transform: uppercase;
+}
+#about4 h4 {
+	color:#000;
+}
+#about4 .about-text {
+	margin-left: 10px;
+}
+#about4 p {
+	margin-top: 20px;
+	margin-bottom: 30px;
+	color:#000;
+}
 /* Portfolio Section */
 #portfolio {
 	padding: 100px 0;
@@ -353,7 +377,7 @@ ol.type li a {
 	background: transparent;
 	border: 0.2px solid #E5E5E5;
 	color: #2B2825;
-	padding: 10px 20px;
+	padding: 10px 50px;
 }
 ol.type li a.active {
 	background: #db5666;
@@ -588,7 +612,7 @@ color: #ccc;
 
 /* Footer Section*/
 #footer {
-	background: #03252b;
+	background: #1e1e1e;
 	padding: 25px 0 20px 0;
 }
 #footer p {
@@ -613,4 +637,43 @@ header .intro-text {
 #about img {
 	margin-bottom: 20px;
 }
+}
+@media (max-width: 768px) {
+	ol.type li {
+		display: inline-block;
+		margin-left: 20px;
+		text-transform: uppercase;
+	}
+	ol.type li a {
+		background: transparent;
+		border: 0.2px solid #E5E5E5;
+		color: #2B2825;
+		padding: 0px 30px;
+	}
+}
+@media (max-width: 375px) {
+	ol.type li {
+		display: inline-block;
+		margin-left: 20px;
+		text-transform: uppercase;
+	}
+	ol.type li a {
+		background: transparent;
+		border: 0.2px solid #E5E5E5;
+		color: #2B2825;
+		padding: 0px 10px;
+	}
+	.vcenter {
+	padding-top: 0px;
+	}
+	h2 {
+		line-height: 20px;
+		margin: 0;
+		color: #821C2A;
+		margin-bottom: 30px;
+		font-size: 30px;
+		font-weight: 400;
+		text-transform: uppercase;
+		padding-bottom: 10px;
+	}
 }
