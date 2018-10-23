@@ -102,7 +102,7 @@ ul, ol {
 	letter-spacing: 1px;
 }
 #menu a.navbar-brand i.fa {
-	color: #25BAD0;
+	color: #ad465b;
 }
 #menu.navbar-default .navbar-nav > li > a {
 	text-transform: uppercase;
@@ -127,8 +127,8 @@ ul, ol {
 	border-radius: 0;
 }
 .navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
-	background-color: #25BAD0;
-	border-color: #25BAD0;
+	background-color: #ad465b;
+	border-color: #ad465b;
 }
 .navbar-default .navbar-toggle:hover>.icon-bar {
 	background-color: #FFF;
